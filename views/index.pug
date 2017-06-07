@@ -1,0 +1,155 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
+    link(href='stylesheets/custom.css', rel='stylesheet')
+    title Shopping Cart
+  body
+    .container
+      .row.rHead
+        h1 Shopping Cart
+      .row.rTable
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Salmon
+          .col-md-2.col-xs-2
+            span $60.20
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='1')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Tuna
+          .col-md-2.col-xs-2
+            span $50.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='2')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Carp
+          .col-md-2.col-xs-2
+            span $40.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='3')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Pork
+          .col-md-2.col-xs-2
+            span $50.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='4')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Beef
+          .col-md-2.col-xs-2
+            span $40.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='5')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Chicken
+          .col-md-2.col-xs-2
+            span $25.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='6')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Cereal
+          .col-md-2.col-xs-2
+            span $45.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='7')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Milk
+          .col-md-2.col-xs-2
+            span $20.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='8')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+        .row.col-md-12.col-xs-12.dataRow
+          .col-md-2.col-xs-2
+            span Sugar
+          .col-md-2.col-xs-2
+            span $10.00
+          .col-md-1.col-xs-1
+            span Qty.
+          .col-md-2.col-xs-2
+            input(placeholder=' input qty.', type='number', name='quantity', min='0', max='100', tabindex='9')
+          // <div class="col-md-1 col-xs-1 clearfix"></div>
+          .col-md-2.col-xs-2
+            button cancel
+          .col-md-2.col-xs-2
+            span.qtyPriceTotal Total $$
+      // row rFinal
+      .col-md-3.col-xs-3.col-md-offset-8.col-xs-offset-8
+        h2 Total Price:
+        h2.totalPrice $ xx
+    block scripts
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+    script(src='javascripts/utils.js')
+    script(src='javascripts/event_handling.js')
+    script(src='javascripts/main.js')

@@ -1,0 +1,55 @@
+h1 {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+.row {
+  margin: 10px auto;
+  min-height: 40px;
+  font-size: 112%;
+}
+
+.dataRow:nth-child(even){
+  color: #040404;
+}
+
+.rTable .row:nth-child(even) {
+  color: #040404;
+}
+
+.col-md-2 {
+  color: inherit;
+}
+
+span {
+  color: inherit;
+}
+
+button {
+  text-transform: capitalize;
+}
+
+input {
+  width: 98%;
+  padding-left: 3px;
+  border-radius: 3px;
+}
+
+.qtyPriceTotal {
+  white-space: nowrap;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #FEFEFE;
+    color: red;
+}
+
+.totalPrice {
+  margin-left: 12%;
+  white-space: nowrap;
+}
